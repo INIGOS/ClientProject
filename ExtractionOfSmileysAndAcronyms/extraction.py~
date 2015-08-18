@@ -50,5 +50,6 @@ class Extraction(object):
 extract=Extraction()
 text="hey hello :p , today is tuesday :) rofl and LOL the weather is too hot @ chennai :( :p lol , ok ciao "
 output=extract.Smileyoperation(text)
+output1=extract.AcronymsOperation(text)
 #replace SmileyOperation by AcronymsOperation to get all the acronmys present in the given text
 print output1
